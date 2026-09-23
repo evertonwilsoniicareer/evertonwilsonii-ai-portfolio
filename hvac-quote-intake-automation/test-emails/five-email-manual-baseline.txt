@@ -1,0 +1,49 @@
+Five-Email Manual Routing Baseline
+
+The following sample emails were used for the untimed manual routing exercise. No handling-time values were entered because they were not measured.
+
+Baseline Email 1 — Quote Ready
+
+Subject: Complete 3-Ton Residential HVAC Request
+
+Hello, Please provide a quote for one 3-ton cooling-only AC system using R454B. The system should be 208/230V single-phase with a vertical air-handler configuration. Please include the outdoor unit, indoor equipment, thermostat, lineset, pad, disconnect, and whip. Quantity 1. Thank you.
+
+Manual classification: QUOTE_READY — All required fields are present, and there are no conflicts or manual-review conditions.
+
+Baseline Email 2 — Needs Information
+
+Subject: Residential AC Quote Request
+
+Hello, Please provide a quote for one R454B air-conditioning system with an outdoor unit, indoor equipment, thermostat, lineset, pad, disconnect, and whip. Thank you.
+
+Manual classification: NEEDS_INFO — Tonnage, phase, voltage, and orientation are missing.
+
+Baseline Email 3 — Manual Review
+
+Subject: 5-Ton Commercial R410A Request
+
+Hello, Please quote one 5-ton cooling-only AC system using R410A. The system should be 460V three-phase with a vertical air-handler configuration. Include the outdoor unit, indoor equipment, thermostat, lineset, pad, disconnect, and whip. Quantity 1. Thank you.
+
+Manual classification: MANUAL_REVIEW — Three-phase power and R410A require technical and compliance review.
+
+Baseline Email 4 — Manual Review
+
+Subject: Conflicting Electrical Requirements
+
+Hello, Please provide a quote for one 4-ton R454B cooling system with a horizontal air handler. The project documents list the electrical requirement as both 208/230V single-phase and 460V three-phase. Include the thermostat, lineset, pad, disconnect, and whip. Quantity 1. Thank you.
+
+Manual classification: MANUAL_REVIEW — Conflicting phase and voltage requirements require human verification.
+
+Baseline Email 5 — Needs Information
+
+Subject: Complete System Request With Unclear Orientation
+
+Hello, Please quote one 2.5-ton R454B cooling-only AC system. It is 208/230V single-phase. Include the outdoor unit, indoor equipment, thermostat, lineset, pad, disconnect, and whip. Quantity 1. The equipment may be installed vertically or horizontally depending on available space. Thank you.
+
+Manual classification: NEEDS_INFO — Orientation is not confirmed.
+
+Baseline Result
+
+Manual route selections correct: 5 of 5. Untimed baseline routing accuracy: 100%. Review-time measurements were not collected and are not claimed.
+
+Manual routing baseline accuracy = 5 ÷ 5 × 100 = 100%
